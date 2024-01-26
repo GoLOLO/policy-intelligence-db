@@ -37,3 +37,7 @@ a. Train an AI on the data in this database to create policy-intelligence-ai
 1) As a policy expert i want to index documents (why) so that they are searchable by keyword
 2) As a policy librarian I want to easily add docs to a list of docs in a database (why) for future reference.
 3) As a policy author I want policy examples when I search by keyword (why) so I can author my own policies quickly/better.
+
+### To do
+1) Build DB
+2) Build UI for Garry to upload information and access information

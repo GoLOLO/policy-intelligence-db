@@ -1,5 +1,5 @@
 # policy-intelligence-db
-This is the database for storing all state and local air district air policies and regulations
+This is the database for storing all state and local air district air policies and regulations as well metadata and keywords associated with each doc.
 
 ## Unstructured database MVP
 a. MongoDB is best for unstructured documents data like classifying policies and regulations
@@ -26,3 +26,14 @@ a. Train an AI on the data in this database to create policy-intelligence-ai
   1. Try not to paint ourselves into a corner in creating the database so that the policy-intelligence-db help us acheive policy-intelligence-ai
   2. AI would be able to offer ai extertise on any policy in the db
   3. AI wold be able to help user author new policies and regulations based on other state's examples
+
+
+### Personas
+1) Policy expert (Garry)
+2) Policy librarian (Garry)
+3) Policy author/researcher (paying customer)
+
+### Epics
+1) As a policy expert i want to index documents (why) so that they are searchable by keyword
+2) As a policy librarian I want to easily add docs to a list of docs in a database (why) for future reference.
+3) As a policy author I want policy examples when I search by keyword (why) so I can author my own policies quickly/better.
